@@ -1,5 +1,5 @@
 React Practice <br>
 
-Dependencies used <br>
+App.js - Dependencies used <br>
 Hooks - useEffect, useState <br> 
 
