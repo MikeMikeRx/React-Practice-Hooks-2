@@ -13,13 +13,13 @@ const App = () => {
       button.textContent = "Click"
     }
     console.log("First-test")
-  },[value])
+  },[value]) // <---- #1
   
   
   useEffect( ()=> {
     document.title = `Test Title ${test}`
     console.log("Second-test")
-  },[test])
+  },[test]) // <----#2
     
   return (
     <div>
